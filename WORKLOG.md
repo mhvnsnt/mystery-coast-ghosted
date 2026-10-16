@@ -27,3 +27,13 @@ branch, what, why, source, backups.
 - Backups: n/a (new docs only, no assets touched, no deletions).
 - Disk note: /home/hatch was at 100% during drafting; docs were staged in
   /tmp/mcg-research/ and moved into the repo once space was freed.
+
+## 2026-10-16 (addendum)
+
+- Branch: `research/cape-jones-transfer-addendum` — PR #6, merged 2026-10-16T17:40:49Z.
+- What: `docs/research/CAPE-JONES-TRANSFER-ADDENDUM.md` + README wire-up log update.
+- Why: the late-arriving transfer-survey worker read 15 cape-jones docs with
+  findings beyond part 1 (dialogue pipeline, FX scripts, mixed-media guide,
+  selective AI interpolation, shared GPU queue). Every file claim re-verified
+  via GitHub API before writing. Judgment calls marked in the doc.
+- Backups: n/a (docs only, no deletions).
