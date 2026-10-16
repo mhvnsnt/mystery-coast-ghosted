@@ -17,6 +17,7 @@ docs, never local-only.
 | TOOLING-2026.md | Open-source 2D animation tooling verified for 2026: rigging, inbetweening, lip sync, scratch TTS, music/SFX libraries |
 | PIPELINE.md | The recommended minimal pipeline for this show, synthesized from all of the above |
 | BIBLE-PROPOSALS.md | Clearly-marked proposals for SHOW-BIBLE.md gaps (proposals only — the bible is owner canon, not rewritten) |
+| CAPE-JONES-TRANSFER-ADDENDUM.md | Part 2: dialogue pipeline, FX scripts, mixed-media environments, selective AI interpolation, shared GPU queue |
 
 ## Wire-up log
 
@@ -47,6 +48,12 @@ reason. A finding without a pull-in is incomplete work.
 | Merch/community stack | | Excluded: show is in pre-production |
 | Synfig as core, Pencil2D, Coqui XTTS, Bark, Papagayo-NG | | Excluded: see TOOLING-2026.md honest exclusions |
 | SMEAR Blender add-on | | Excluded pending license verification |
+| dialogue_pipeline.py (Dia2/Chatterbox/Kokoro/Bark) | CAPE-JONES-TRANSFER-ADDENDUM.md; proposed for pipeline setup turn | |
+| anime_fx.py / retro_fx.py / comp_glow.py | CAPE-JONES-TRANSFER-ADDENDUM.md; proposed for FX stage | |
+| MIXED-MEDIA-GUIDE.md environment techniques | CAPE-JONES-TRANSFER-ADDENDUM.md; background art direction reference | |
+| ToonCrafter selective interpolation | CAPE-JONES-TRANSFER-ADDENDUM.md; hero/chase shots only, via shared kaggle_queue | |
+| LatentSync talking-head post-process | | Excluded as primary lip sync (re-renders pixels, not phoneme charts); kept as qualified post-process option |
+| kaggle_queue.py | Correction: shared infrastructure, add Mystery Coast jobs with show tag | |
 
 ## Technique citations for animators
 
